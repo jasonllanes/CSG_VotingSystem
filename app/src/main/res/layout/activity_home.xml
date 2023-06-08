@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".home_activity">
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/csg_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/font_two"
+        android:textSize="25dp"
+        android:text="CSG Voting System"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/black"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Start Voting"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/baseline_person_add_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginHorizontal="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVoters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="List of Voters"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/baseline_people_alt_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginHorizontal="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="Tali of Votes"
+        android:textSize="20dp"
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/baseline_sticky_note_2_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginHorizontal="20dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnQuit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Quit"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:drawableTint="@color/white"
+        android:drawableLeft="@drawable/baseline_exit_to_app_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

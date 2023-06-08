@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "811788305928",
+    "firebase_url": "https://csg-votingsystem-default-rtdb.firebaseio.com",
+    "project_id": "csg-votingsystem",
+    "storage_bucket": "csg-votingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811788305928:android:70f224ab5eac11bb7eb3bd",
+        "android_client_info": {
+          "package_name": "com.example.csg_votingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811788305928-8jr8p936o1mmisdm7v5rgnod26hnunpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANLk4n0FmX2-GYwTu2xu1QkTn8bVqT2SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811788305928-8jr8p936o1mmisdm7v5rgnod26hnunpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

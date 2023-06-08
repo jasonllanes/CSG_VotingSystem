@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".pages.voting_pane">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/font_two"
+        android:textSize="25dp"
+        android:text="CSG Voting System"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/font_two"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="Vote Wisely!"
+        android:textColor="@color/blue"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Please input your fullname:"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:hint="Fullname (Ex.: Jason Llanes)"
+                android:textColorHint="@color/blue"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/blue"
+                android:inputType="text"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="President:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgPresident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Chrislim Niño Coro (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daryl Salloman (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Glory Leigh Vicariato (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Vice President:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgVice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Jestoni Abang (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jb Cabagasan (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lavinia Morales (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Secretary:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgSecretary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Danica Daplin (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Princess Lykha Garcia (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mikka Isabelle Calugay (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Treasurer:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgTreasurer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Karlyn Moraga (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rj Dayot (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crizyl Vie Pastrano (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Auditor:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgAuditor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Shynelle De Paz (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Winlove Madlos (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jessabelle Echem (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Internal PIO:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgInternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Eda Pajo (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ken Aldepuella (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camelle Francine Alcuizar (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="External PIO:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgExternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Matthew Espiritu (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aleck Gacita (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Allan Rey Galve (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="2nd Year Representative:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Abril Silawan (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jaylord Canopin (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ashley Graceler Calma (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="3rd Year Representative:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Jhoannie Mercado (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="James Inding (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neo Niño Beja (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="4th Year Representative:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgFourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Romel Gule (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deane Paler (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Najer Ambor (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="25dp"
+                android:text="Ambassador:"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/rgAmbassador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:text="Franklin Zamora (SUSTAIN Party-list)"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Glaiza Mae Balutic (PUC Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paulo Jinnson Alsola (DASIG Party-list)"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Thank you for voting!"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:text="Note: Please call a CSG Member to finalize your vote!"
+                android:textColor="@color/blue"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:padding="10dp"
+                android:text="Show Summary"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

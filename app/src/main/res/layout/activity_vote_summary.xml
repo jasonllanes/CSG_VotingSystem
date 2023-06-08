@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".pages.vote_summary">
+
+    <TextView
+        android:id="@+id/tvvPresident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvVice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvSecretary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvTreasurer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvAuditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/tvvThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvFourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/tvvAmbassador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_two"
+        android:textSize="15dp"
+        android:text="Jason Llanes"
+        android:textColor="@color/blue"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/font_two"
+        android:textSize="25dp"
+        android:text="Vote Summary"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Fullname:"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="President:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvPresident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Vice President:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvVice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Secretary:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvSecretary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Treasurer:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvTreasurer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Auditor:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvAuditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Internal PIO:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvInternal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="External PIO:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvExternal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="2nd Year Representative:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="3rd Year Representative:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="4th Year Representative:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Ambassador:"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvAmbassador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_two"
+                android:textSize="15dp"
+                android:text="Jason Llanes"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/font_two"
+                android:textSize="20dp"
+                android:text="Thank you for voting!"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:text="CSG Member Note:\n One Vote at a time, so tap submit button individually"
+                android:textColor="@color/blue"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:padding="10dp"
+                android:text="Submit Vote"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
