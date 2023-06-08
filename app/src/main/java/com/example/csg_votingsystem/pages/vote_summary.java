@@ -117,7 +117,7 @@ public class vote_summary extends AppCompatActivity {
 
                 fd.addVoter(name);
 
-                fd.addVote(president,String.valueOf(presidentVotes),
+                fd.addVote(vote_summary.this,getApplicationContext(),president,String.valueOf(presidentVotes),
                         vice,String.valueOf(viceVotes),
                         secretary,String.valueOf(secretaryVotes),
                         treasurer,String.valueOf(treasurerVotes),
@@ -129,6 +129,8 @@ public class vote_summary extends AppCompatActivity {
                         fourth,String.valueOf(fourthVotes),
                         ambassador,String.valueOf(ambassadorVotes)
                         );
+
+
             }
         });
 

@@ -79,7 +79,7 @@ public class voting_pane extends AppCompatActivity {
 
 
 
-                Toast.makeText(voting_pane.this, rbPresident.getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(voting_pane.this, "Showing summary...", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(voting_pane.this,vote_summary.class);
                 i.putExtra("name",etName.getText().toString());
                 i.putExtra("president",rbPresident.getText().toString());

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.csg_votingsystem.pages.view_voters;
 import com.example.csg_votingsystem.pages.voting_pane;
@@ -41,7 +42,22 @@ public class home_activity extends AppCompatActivity {
             }
         });
 
+        btnVotes = findViewById(R.id.btnVotes);
+        btnVotes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(home_activity.this, "Wala pa nako na add hehe", Toast.LENGTH_SHORT).show();
 
+            }
+        });
+
+        btnQuit = findViewById(R.id.btnQuit);
+        btnQuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(home_activity.this, "I close ra ang app uy kapoy na code  HWAHWHAHWHA", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
     }

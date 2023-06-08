@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="22dp"
-                android:hint="Fullname (Ex.: Jason Llanes)"
+                android:hint="Fullname (Ex.: Jason Kyutie)"
                 android:textColorHint="@color/blue"
                 android:backgroundTint="@color/black"
                 android:textColor="@color/blue"

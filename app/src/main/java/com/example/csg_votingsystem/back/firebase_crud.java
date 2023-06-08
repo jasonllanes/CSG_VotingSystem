@@ -38,7 +38,8 @@ public class firebase_crud {
         });
     }
 
-    public void addVote(String president_name,String president_vote,
+    public void addVote(Activity activity,Context context,
+                        String president_name,String president_vote,
                         String vice_president_name,String vice_president_vote,
                         String secretary_name,String secretary_vote,
                         String treasurer_name,String treasurer_vote,
@@ -82,63 +83,67 @@ public class firebase_crud {
                 vice_president.child(vice_president_name).setValue(vVice).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-
+                        secretary.child(secretary_name).setValue(vSec).addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                treasurer.child(treasurer_name).setValue(vTre).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        auditor.child(auditor_name).setValue(vAud).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                internal.child(internal_name).setValue(vInt).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                    @Override
+                                                    public void onComplete(@NonNull Task<Void> task) {
+                                                        external.child(external_name).setValue(vExt).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                            @Override
+                                                            public void onComplete(@NonNull Task<Void> task) {
+                                                                second.child(second_name).setValue(vSeco).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                    @Override
+                                                                    public void onComplete(@NonNull Task<Void> task) {
+                                                                        third.child(third_name).setValue(vThi).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                            @Override
+                                                                            public void onComplete(@NonNull Task<Void> task) {
+                                                                                fourth.child(fourth_name).setValue(vFour).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                                    @Override
+                                                                                    public void onComplete(@NonNull Task<Void> task) {
+                                                                                        ambassador.child(ambassador_name).setValue(vAmba).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                                            @Override
+                                                                                            public void onComplete(@NonNull Task<Void> task) {
+                                                                                                Toast.makeText(context, "Successfully voted.", Toast.LENGTH_SHORT).show();
+                                                                                                Intent i = new Intent(context, home_activity.class)
+                                                                                                        .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); ;
+                                                                                                context.startActivity(i);
+                                                                                                activity.finish();
+                                                                                            }
+                                                                                        });
+                                                                                    }
+                                                                                });
+                                                                            }
+                                                                        });
+                                                                    }
+                                                                });
+                                                            }
+                                                        });
+                                                    }
+                                                });
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        });
                     }
                 });
-                secretary.child(secretary_name).setValue(vSec).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                treasurer.child(treasurer_name).setValue(vTre).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                auditor.child(auditor_name).setValue(vAud).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                internal.child(internal_name).setValue(vInt).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                external.child(external_name).setValue(vExt).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                second.child(second_name).setValue(vSeco).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                third.child(third_name).setValue(vThi).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                fourth.child(fourth_name).setValue(vFour).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
-                ambassador.child(ambassador_name).setValue(vAmba).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
 
-                    }
-                });
             }
         });
     }

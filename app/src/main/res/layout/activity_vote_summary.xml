@@ -8,95 +8,108 @@
     android:background="@color/white"
     tools:context=".pages.vote_summary">
 
-    <TextView
-        android:id="@+id/tvvPresident"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvVice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvSecretary"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvTreasurer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvAuditor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvInternal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvExternal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvSecond"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="Votation ID: "
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvPresident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvVice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvSecretary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvTreasurer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvAuditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvInternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvExternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
 
-    <TextView
-        android:id="@+id/tvvThird"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvFourth"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
-    <TextView
-        android:id="@+id/tvvAmbassador"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font_two"
-        android:textSize="15dp"
-        android:text="Jason Llanes"
-        android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvFourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/tvvAmbassador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_two"
+            android:textSize="15dp"
+            android:text="-"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
 
 
     <ImageView
